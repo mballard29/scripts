@@ -13,4 +13,4 @@ The commands I don't like to type out when creating a Github repo from an existi
 
 <h4>Future projects</h4>
 
-- [ ] 
+- [ ] <next>
