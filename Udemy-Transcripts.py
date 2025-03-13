@@ -19,9 +19,10 @@ To use scrape.py:
         Lecture 95: System File Checker.txt
 
 iCloud (iPad) annotation:
-      Run this process on each webpage in section.
-      Batch drag/drop text files into iCloud drive.
-      Wait for iCloud to sync (or force if necessary).
+      Run this process on each webpage in section
+      Batch drag/drop text files into iCloud drive
+      Wait for iCloud to sync (or force if necessary)
+      Open on iPad to annotate
 '''
 )
 
@@ -49,6 +50,7 @@ Issues:
 - Udemy must authenticate to see page, so cannot use requests (with BS or Selenium)
 - Udemy 'Instructors' have an API, but not regular users which they call 'Affiliates' (or the page just wouldn't load on my computer)
 - There is no script tag that seems to directly point to metadata or resource fetch requests that are obvious
-- The page is dynamically loaded and even looking at the Inspect window, the HTML will only show explicitly visible content
+- The page is dynamically loaded and looking at the Inspect window, the HTML will only show explicitly visible content
+  - e.g. Video titles (inner text) not visible in inspect window if the page section is not large enough to toggle visibility
 - No FETCH/XHR requests are discernably for transcript data
 '''
