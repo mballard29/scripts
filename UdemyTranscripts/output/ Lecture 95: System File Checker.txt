@@ -1,0 +1,3 @@
+Section 10: Windows Command Line Tools, Lecture 95: System File Checker (OBJ. 1.2)
+
+In this lesson, we're going to talk about the System File Checker command.

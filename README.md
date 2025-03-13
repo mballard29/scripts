@@ -9,8 +9,8 @@ I use Pinterest to create moodboards, or just collect stuff I find on Pinterest 
 The commands I don't like to type out when creating a Github repo from an existing folder on my local machine. Skips me a couple steps forward to actually naming and setting permissions for the repo on Github using the CLI.
 
 ### Udemy Transcripts
-Sometimes it's easier to process information by listening. Sometimes it's easier to read, and when reading, being able to annotate with pens/pencils/highlighters is even better. Despite the user- and accessibility-friendly options human-proofread captions on Jason Dion's videos on Udemy, the rigidity of the transcript having to be read on a time-synced and -formatted can be slow, annoying, and limit further utility such as annotation. This script takes a saved html file, parses the html to output a simple text file of the transcript. <br>
-(*note: Udemy is not very developer friendly. Makes sense because the content hosted is paid. My script is simple and not very powerful, but it does help me in the right direction. Specific issues mentioned in comments in script.)
+Made to allow me get Udemy transcrips in an annotatable format. Parses HTML to create output text files to be printed or copied/moved to iCloud folder for annotation using iPad. (Example files in folders to understand input/output functioning of script. I'm trying to respect IP, so they are redacted to only show what is necessary)
+(*note: Udemy is not very developer friendly. Makes sense because the content hosted is paid/proprietary. The purpose of the script is to increase accessibility friendliness and studying flexibility. Specific issues mentioned in comments in script.)
 
 
 
