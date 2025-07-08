@@ -13,7 +13,7 @@ Made to allow me get Udemy transcrips in an annotatable format. Parses HTML to c
 (*note: Udemy is not very developer friendly. Makes sense because the content hosted is paid/proprietary. The purpose of the script is to increase accessibility friendliness and studying flexibility. Specific issues mentioned in comments in script.)
 
 ### find_drivers.py
-On a given drive with many folders with device drivers, find the paths of all `.inf` files. Create an `install_drivers.cmd` script to install the drivers from a Windows command prompt.
+When getting drivers from the Dell website, they come as executables that must be extracted. You can use `drvload <Path to .inf file>` to install a driver from the Windows command prompt if you know the Path to the driver, but they are often in deeply nested folders that may be ambiguously named. Given a drive with the extracted driver files, I can put `find_drivers.py` on the same drive, run it, and then run the outputted `install_drivers.cmd` on the target system to quickly install drivers on my flash drive (particularly for recovering a Windows system).
 
 
 
